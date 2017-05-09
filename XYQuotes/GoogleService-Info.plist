@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>102390389235-fo24m63vrvivpdrcfepi05modv22vebk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.102390389235-fo24m63vrvivpdrcfepi05modv22vebk</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCl74TT_yWWRD3z-i6hwcq2aPFAZ0O-HIM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>102390389235</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.lucasagin.XYQuotes</string>
+	<key>PROJECT_ID</key>
+	<string>xyquotes-d0058</string>
+	<key>STORAGE_BUCKET</key>
+	<string>xyquotes-d0058.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:102390389235:ios:d8b21ddb5ef84630</string>
+	<key>DATABASE_URL</key>
+	<string>https://xyquotes-d0058.firebaseio.com</string>
+</dict>
+</plist>
