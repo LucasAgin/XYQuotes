@@ -1,4 +1,5 @@
 *.xcworkspace
+*.xcuserstate
 
 ## Various settings
 *.pbxuser
@@ -10,3 +11,4 @@
 *.perspectivev3
 !default.perspectivev3
 xcuserdata/
+
