@@ -45,8 +45,6 @@ class TestControllerViewController: UIViewController, UITableViewDelegate, UITab
     
     func getQuotes () {
         let quoteRef = FIRDatabase.database().reference(withPath: "Quotes")
-        var quote1 = [String: AnyObject]()
-        
         quoteRef.observe(.childAdded, with: { (snapshot) in
             self.quotes.append(snapshot.childSnapshot(forPath: "Quote").value as! String!)
             self.tableView.reloadData()
