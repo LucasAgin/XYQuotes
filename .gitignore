@@ -1,4 +1,6 @@
 *.xcworkspace
+*.xcuserstate
+
 
 ## Various settings
 *.pbxuser
