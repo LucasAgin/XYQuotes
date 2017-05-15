@@ -9,8 +9,6 @@
 import UIKit
 import Firebase
 
-var postDict: [String: AnyObject] = [:]
-
 class ViewController: UIViewController {
   
 
@@ -24,8 +22,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(postDict)
-        getQuotes()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -49,17 +45,6 @@ class ViewController: UIViewController {
         quoteRef.childByAutoId().setValue(quoteLine)
     }
 
-    func getQuotes () {
-        let quoteRef = FIRDatabase.database().reference(withPath: "Quotes")
-        let refHandle = quoteRef.observe(FIRDataEventType.value, with: { (snapshot) in
-            postDict = snapshot.value as? [String : AnyObject] ?? [:]
-            // ...
-            print(postDict)
-            
-        })
-    }
-    
-    
     
 }
 
