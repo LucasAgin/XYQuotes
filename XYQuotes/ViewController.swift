@@ -16,14 +16,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var quoteField: UITextField!
     @IBOutlet weak var senderField: UITextField!
     @IBOutlet weak var responseLabel: UILabel!
-    var postDict: [String: AnyObject] = [:]
+ 
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(self.postDict)
-        getQuotes()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -47,17 +45,6 @@ class ViewController: UIViewController {
         quoteRef.childByAutoId().setValue(quoteLine)
     }
 
-    func getQuotes () {
-        let quoteRef = FIRDatabase.database().reference(withPath: "Quotes")
-        let refHandle = quoteRef.observe(FIRDataEventType.value, with: { (snapshot) in
-            self.postDict = snapshot.value as? [String : AnyObject] ?? [:]
-            // ...
-            print(self.postDict)
-            
-        })
-    }
-    
-    
     
 }
 

@@ -16,6 +16,7 @@
 		A046B4381E8616AE00098E4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A046B4361E8616AE00098E4E /* LaunchScreen.storyboard */; };
 		A046B44E1E8616AF00098E4E /* XYQuotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A046B44D1E8616AF00098E4E /* XYQuotesUITests.swift */; };
 		A046B45C1E86170000098E4E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A046B45B1E86170000098E4E /* GoogleService-Info.plist */; };
+		A08F45D71EC1774100FEEB9E /* TestControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F45D61EC1774100FEEB9E /* TestControllerViewController.swift */; };
 		D5BCB609AC1F028DB2BD3BD0 /* Pods_XYQuotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E043DD3782F4CB352E5CADB /* Pods_XYQuotes.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		A046B44D1E8616AF00098E4E /* XYQuotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYQuotesUITests.swift; sourceTree = "<group>"; };
 		A046B44F1E8616AF00098E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A046B45B1E86170000098E4E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A08F45D61EC1774100FEEB9E /* TestControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestControllerViewController.swift; sourceTree = "<group>"; };
 		B4D15532A1BE3EA8E83FFA1F /* Pods-XYQuotesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYQuotesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYQuotesTests/Pods-XYQuotesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ECD56344B6E8A4B405B93DAA /* Pods_XYQuotesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYQuotesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -127,6 +129,7 @@
 			children = (
 				A046B42D1E8616AE00098E4E /* AppDelegate.swift */,
 				A046B42F1E8616AE00098E4E /* ViewController.swift */,
+				A08F45D61EC1774100FEEB9E /* TestControllerViewController.swift */,
 				A046B4311E8616AE00098E4E /* Main.storyboard */,
 				A046B4341E8616AE00098E4E /* Assets.xcassets */,
 				A046B4361E8616AE00098E4E /* LaunchScreen.storyboard */,
@@ -441,6 +444,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A046B4301E8616AE00098E4E /* ViewController.swift in Sources */,
+				A08F45D71EC1774100FEEB9E /* TestControllerViewController.swift in Sources */,
 				A046B42E1E8616AE00098E4E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
