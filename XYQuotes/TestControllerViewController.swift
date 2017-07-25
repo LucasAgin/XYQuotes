@@ -30,6 +30,7 @@ class TestControllerViewController: UIViewController, UITableViewDelegate, UITab
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        getQuotes()
         // Do any additional setup after loading the view.
     }
 
@@ -39,7 +40,7 @@ class TestControllerViewController: UIViewController, UITableViewDelegate, UITab
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        getQuotes()
+        
     }
 
     
